@@ -1,0 +1,5 @@
+(or (and ('that') ('this')) (cl:comment 'comment: string' (and ('ignore') ('this'))) (iff (and ('A') ('B')) ('C')))
+('Atomic sentence' (cl:comment 'this is a comment, the operation inside should not count' (and ('A') ('B'))) ('name2') (1001) ('name3'))
+(iff ('A sentence with inner \'quotes\'') (and (56 78)))
+(iff ('A sentence with inner double "quotes"') (and (56 78)))
+('Atomic sentence' (1001) ('1001+') ('1002+'))

@@ -1,0 +1,5 @@
+(cl:comment 'this is a comment, nothing should be counted' (and ('this and operation should not be counted') ('dont count this name') ('dont count this name 2')))
+('Boolean sentence' (or (0)))
+('Boolean sentence 2' (cl:comment 'this is a comment, the operation inside should not count' (and ('A') ('B'))) ('name2') (1001) ('name3') (and ('name4')))
+('Atom sentence' (45) ('name2') (67) ('name3'))
+('Nested comments in this atomic sentence' (cl:comment 'comment string' (cl:comment 'nested comment string')) ('name2') ('name3'))

@@ -1,0 +1,5 @@
+('Atomic sentence with invalid character' (1001) ('1001+') (1001+))
+(or (0) (and))
+('Atomic sentence with extra close parenthesis' (0133)))
+(890 650 670 (cl:comment 'comment string') (cl:comment 'missing close parethesis')
+(and ('Boolean sentence') ('Invalid character in name: @') ('Throw lexing error and skip character'))

@@ -1,0 +1,4 @@
+((and (0)) (cl:comment 'this is a comment' (and (0))) (and (1) ('name1')))
+(iff ("A sentence with double \'quotes\'") (and (56 78)))
+('Invalid Atom() sentence, should not allow \'(\' or \')\'' (45) ('name2') (67) ('name3'))
+('Atomic list of names' 'name2' 'name3' 56 'name4' 'invalid character: ' ['name5'])
